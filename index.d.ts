@@ -31,6 +31,7 @@
 /// <reference types="node" />
 import { EventEmitter } from 'events';
 import * as OAuth from 'oauth-1.0a';
+import { Response } from 'cross-fetch';
 
 export default class Twitter {
   private authType: AuthType;
